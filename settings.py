@@ -15,5 +15,10 @@ DATA_DIR = PROJECT_DIR / 'data'
 # # Demonstrate __file__, type(__file__), Path(__file__), Path(__file__).parent and Path.cwd()
 # print(__file__)
 # print(Path(__file__))
+f = Path(__file__)
+print(f)
+print(f.parent)
 # print(Path(__file__).parent)
 
+
+#%%
